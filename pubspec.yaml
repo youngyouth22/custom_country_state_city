@@ -1,0 +1,97 @@
+name: custom_country_state_city
+description: A flutter package to display list of Countries, States and Cities depends on a given country
+version: 0.1.8
+
+homepage: https://github.com/youngyouth22/custom_flutter_country_city_picker
+repository: https://github.com/youngyouth22/custom_flutter_country_city_picker
+
+environment:
+  sdk: ^3.7.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  assets:
+    - lib/assets/
+    - package:custom_country_state_city/localization/i18n/af.json
+    - package:custom_country_state_city/localization/i18n/am.json
+    - package:custom_country_state_city/localization/i18n/ha.json
+    - package:custom_country_state_city/localization/i18n/ku.json
+    - package:custom_country_state_city/localization/i18n/ml.json
+    - package:custom_country_state_city/localization/i18n/no.json
+    - package:custom_country_state_city/localization/i18n/ps.json
+    - package:custom_country_state_city/localization/i18n/sd.json
+    - package:custom_country_state_city/localization/i18n/so.json
+    - package:custom_country_state_city/localization/i18n/sq.json
+    - package:custom_country_state_city/localization/i18n/ta.json
+    - package:custom_country_state_city/localization/i18n/tg.json
+    - package:custom_country_state_city/localization/i18n/tt.json
+    - package:custom_country_state_city/localization/i18n/ug.json
+    - package:custom_country_state_city/localization/i18n/ur.json
+    - package:custom_country_state_city/localization/i18n/vi.json
+    - package:custom_country_state_city/localization/i18n/ar.json
+    - package:custom_country_state_city/localization/i18n/az.json
+    - package:custom_country_state_city/localization/i18n/be.json
+    - package:custom_country_state_city/localization/i18n/bg.json
+    - package:custom_country_state_city/localization/i18n/bn.json
+    - package:custom_country_state_city/localization/i18n/bs.json
+    - package:custom_country_state_city/localization/i18n/ca.json
+    - package:custom_country_state_city/localization/i18n/cs.json
+    - package:custom_country_state_city/localization/i18n/da.json
+    - package:custom_country_state_city/localization/i18n/de.json
+    - package:custom_country_state_city/localization/i18n/el.json
+    - package:custom_country_state_city/localization/i18n/en.json
+    - package:custom_country_state_city/localization/i18n/es.json
+    - package:custom_country_state_city/localization/i18n/et.json
+    - package:custom_country_state_city/localization/i18n/fa.json
+    - package:custom_country_state_city/localization/i18n/fi.json
+    - package:custom_country_state_city/localization/i18n/fr.json
+    - package:custom_country_state_city/localization/i18n/gl.json
+    - package:custom_country_state_city/localization/i18n/el.json
+    - package:custom_country_state_city/localization/i18n/he.json
+    - package:custom_country_state_city/localization/i18n/hi.json
+    - package:custom_country_state_city/localization/i18n/hr.json
+    - package:custom_country_state_city/localization/i18n/hu.json
+    - package:custom_country_state_city/localization/i18n/hy.json
+    - package:custom_country_state_city/localization/i18n/id.json
+    - package:custom_country_state_city/localization/i18n/is.json
+    - package:custom_country_state_city/localization/i18n/it.json
+    - package:custom_country_state_city/localization/i18n/ja.json
+    - package:custom_country_state_city/localization/i18n/ka.json
+    - package:custom_country_state_city/localization/i18n/kk.json
+    - package:custom_country_state_city/localization/i18n/km.json
+    - package:custom_country_state_city/localization/i18n/ko.json
+    - package:custom_country_state_city/localization/i18n/ky.json
+    - package:custom_country_state_city/localization/i18n/lt.json
+    - package:custom_country_state_city/localization/i18n/lv.json
+    - package:custom_country_state_city/localization/i18n/mk.json
+    - package:custom_country_state_city/localization/i18n/mn.json
+    - package:custom_country_state_city/localization/i18n/ms.json
+    - package:custom_country_state_city/localization/i18n/nb.json
+    - package:custom_country_state_city/localization/i18n/nl.json
+    - package:custom_country_state_city/localization/i18n/nn.json
+    - package:custom_country_state_city/localization/i18n/pl.json
+    - package:custom_country_state_city/localization/i18n/pt.json
+    - package:custom_country_state_city/localization/i18n/ro.json
+    - package:custom_country_state_city/localization/i18n/ru.json
+    - package:custom_country_state_city/localization/i18n/sk.json
+    - package:custom_country_state_city/localization/i18n/sl.json
+    - package:custom_country_state_city/localization/i18n/sr.json
+    - package:custom_country_state_city/localization/i18n/sv.json
+    - package:custom_country_state_city/localization/i18n/th.json
+    - package:custom_country_state_city/localization/i18n/tr.json
+    - package:custom_country_state_city/localization/i18n/uk.json
+    - package:custom_country_state_city/localization/i18n/uz.json
+    - package:custom_country_state_city/localization/i18n/zh.json
