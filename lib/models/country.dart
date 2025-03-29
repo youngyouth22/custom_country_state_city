@@ -32,23 +32,23 @@ class Country {
   }
 
   static Country fromJson(Map<String, dynamic> json) => Country(
-        name: json['name'],
-        isoCode: json['isoCode'],
-        phoneCode: json['phoneCode'],
-        currency: json['currency'],
-        flag:
-            'lib/assets/flags/${json['code'].toLowerCase()}.png', // json['flag'],
-        latitude: json['latitude'],
-        longitude: json['longitude'],
-      );
+    name: json['name'],
+    isoCode: json['isoCode'],
+    phoneCode: json['phoneCode'],
+    currency: json['currency'],
+    flag:
+        'lib/assets/flags/${json['isoCode'].toLowerCase()}.png', // json['flag'],
+    latitude: json['latitude'],
+    longitude: json['longitude'],
+  );
 
   Map<String, dynamic> toJson() => {
-        'name': name,
-        'isoCode': isoCode,
-        'phoneCode': phoneCode,
-        'currency': currency,
-        'flag': flag,
-        'latitude': latitude,
-        'longitude': longitude,
-      };
+    'name': name,
+    'isoCode': isoCode,
+    'phoneCode': phoneCode,
+    'currency': currency,
+    'flag': flag,
+    'latitude': latitude,
+    'longitude': longitude,
+  };
 }

@@ -1,4 +1,4 @@
-[
+List countryJson = [
     {
         "isoCode": "AF",
         "name": "Afghanistan",
@@ -5745,4 +5745,4 @@
             }
         ]
     }
-]
+];
