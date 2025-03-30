@@ -16,7 +16,6 @@ void main() {
 
   test('coutries should be loaded', () async {
     final countries = await getAllCountries();
-
     expect(countries.isEmpty, false);
     expect(countries.first.runtimeType, Country);
   });

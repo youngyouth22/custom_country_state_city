@@ -25,7 +25,7 @@ dev_dependencies:
 flutter:
   assets:
     - lib/assets/
-    - lib/assets/flags/
+    - assets/flags/
     - lib/localization/i18n/af.json
     - lib/localization/i18n/am.json
     - lib/localization/i18n/ha.json
