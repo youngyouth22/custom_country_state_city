@@ -37,7 +37,7 @@ class Country {
     phoneCode: json['phoneCode'],
     currency: json['currency'],
     flag:
-        'assets/flags/${json['isoCode'].toLowerCase()}.png', // json['flag'],
+        'lib/assets/flags/${json['isoCode'].toLowerCase()}.png', // json['flag'],
     latitude: json['latitude'],
     longitude: json['longitude'],
   );
