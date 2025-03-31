@@ -25,6 +25,14 @@ class Country {
     this.timezones,
   });
 
+  @override
+  bool operator ==(Object other) {
+    return (other is Country) && other.name == name;
+  }
+
+  @override
+  int get hashCode => name.hashCode;
+
   Country localize(BuildContext context) {
     return this
       ..name =
